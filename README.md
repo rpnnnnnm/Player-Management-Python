@@ -37,6 +37,7 @@ Run the script using the following command:
 
 Bash
 python Player-Management-Python.py
+
 👥 Team Members (Group 5 - IF-8)
 Yusuf Rizqi Aulia (10125359)
 
