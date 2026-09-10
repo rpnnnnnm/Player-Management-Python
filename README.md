@@ -1,42 +1,42 @@
-🖥️ Sistem Informasi Rental PlayStation (Java)
-A desktop-based PlayStation rental management application developed using Java (NetBeans IDE) and MySQL for database integration. This system is designed to streamline rental operations, customer management, and transaction tracking.
+🎮 Program Management Player Game
+A console-based player data management program developed in Python as a final assignment for the Algorithm and Data Structure 1 course at Universitas Komputer Indonesia (UNIKOM).
 
 📌 Project Overview
-This application manages the daily operations of a PlayStation rental business. It features a structured Java NetBeans project architecture (utilizing controllers, models, views, and database helper classes) supported by a MySQL database to securely handle unit inventories, customer records, and payment logs.
+This project demonstrates the practical implementation of fundamental data structures and algorithms—specifically 2D Arrays, Insertion Sort, and Sequential Search—to manage game player profiles, levels, and inventories efficiently.
 
-✨ Key Features
-Authentication & Login: Secure login system (LoginFrame, AuthController) for operators to access the application dashboard.
+✨ Features & Menu
+Input Data Player: Add a new player by inputting their nickname, level, and selecting items from a predefined list of 9 inventory items.
 
-Console Management: Monitor and manage various PlayStation unit generations (PS3, PS4, and PS5) and their active statuses.
+Tampil Data Player: Display a structured list of all registered players along with their respective levels and inventory items.
 
-Customer Management (Pelanggan): Register, track, and manage customer details (PelangganFrame).
+Urutkan Data Player: Sort players automatically in descending order based on their levels using the Insertion Sort algorithm.
 
-Rental Transactions: Handle active rental logs, duration tracking, and automated calculation of rental bills.
+Cari Data Player: Search for a specific player by their nickname using the Sequential Search algorithm and view their details.
 
-Payment Processing: Support flexible payment methods including both Cash (PembayaranCash) and Bank Transfer (PembayaranTransfer) options.
+Exit: Terminate the program execution safely.
 
-🛠️ Tech Stack & Architecture
-Programming Language: Java
+🛠️ Tech Stack & Concepts
+Language: Python
 
-IDE: NetBeans
+Data Structures: Lists / 2D Arrays, Records
 
-Database: MySQL (database.sql)
+Algorithms:
 
-Database Connector: MySQL JDBC Driver (mysql-connector-java)
+Insertion Sort (Descending Order by Level)
 
-Architecture Pattern: MVC-style separation (Controllers, Models, Views, and Utilities/Exceptions)
+Sequential Search (By Nickname)
 
 🚀 How to Run
+Make sure you have Python installed on your computer.
+
 Clone or download this repository.
 
-Import the provided database.sql file into your local MySQL server.
+Open your terminal or command prompt in the project directory.
 
-Open the project directory inside NetBeans IDE.
+Run the script using the following command:
 
-Adjust the database connection settings inside the Koneksi.java or DatabaseHelper.java file if your local database credentials require it.
-
-Run the project from Main.java or launch the initial login frame.
-
+Bash
+python Player-Management-Python.py
 👥 Team Members (Group 5 - IF-8)
 Yusuf Rizqi Aulia (10125359)
 
